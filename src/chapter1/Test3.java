@@ -34,11 +34,6 @@ public class Test3 {
 		Test3 obj = new Test3();
 		return obj.instanceValue;
 	}
-	
-	static int methodF() {
-		Test3 obj = new Test3();
-		return obj.instanceValue;
-	}
 }
 
 
