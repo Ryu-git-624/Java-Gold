@@ -1,6 +1,6 @@
 package chapter1;
 
-public class Test1 {
+public class Test1_main {
 
 	public static void main(String[] args) {
 		
