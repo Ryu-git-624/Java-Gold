@@ -18,9 +18,9 @@ public class Test8_main {
 		Foo obj2 = new Foo();
 		Bar obj3 = new Bar();
 		
-		System.out.println(ary);
+		System.out.println(ary);//配列はtoString()メソッドをオーバーライドしていないため「クラス名@ハッシュコード」が表示される
 		System.out.println(obj1);
-		System.out.println(obj2);
+		System.out.println(obj2);//独自クラスでtoString()メソッドをオーバーライドしていないため「クラス名@ハッシュコード」が表示される
 		System.out.println(obj3);
 		
 	}
