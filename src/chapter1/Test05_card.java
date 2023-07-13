@@ -1,6 +1,6 @@
 package chapter1;
 
-public class Test5_card {
+public class Test05_card {
 	
 	enum Card{
 		SPADES,

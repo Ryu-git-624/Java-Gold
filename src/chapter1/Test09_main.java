@@ -1,6 +1,6 @@
 package chapter1;
 
-public class Test9_main {
+public class Test09_main {
 
 	public static void main(String[] args) {
 		Foo f1 = new Foo();

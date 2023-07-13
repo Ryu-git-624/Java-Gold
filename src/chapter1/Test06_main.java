@@ -23,7 +23,7 @@ enum Card{
 	}
 }
 
-public class Test6_main {
+public class Test06_main {
 	public static void main(String[] args) {
 		Card card = Card.DIAMONDS;
 		System.out.println(card);

@@ -10,7 +10,7 @@ class Bar{
 	}
 }
 
-public class Test8_main {
+public class Test08_main {
 
 	public static void main(String[] args) {
 		int[] ary = {1,2};

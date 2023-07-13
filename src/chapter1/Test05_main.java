@@ -1,8 +1,8 @@
 package chapter1;
 
-import chapter1.Test5_card.Card;
+import chapter1.Test05_card.Card;
 
-public class Test5_main {
+public class Test05_main {
 
 	public static void main(String[] args) {
 		Card card = Card.DIAMONDS;

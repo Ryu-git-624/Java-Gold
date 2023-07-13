@@ -5,7 +5,7 @@ class Test4 {
 	String instanceValue = "instanceValue";
 	
 }
-public class Test4_main{
+public class Test04_main{
 	public static void main(String[] args) {
 			
 		Test4 obj = null;

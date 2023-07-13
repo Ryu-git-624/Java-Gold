@@ -1,6 +1,6 @@
 package chapter1;
 
-public class Test3_main {
+public class Test03_main {
 	int instanceValue;
 	static int staticValue;
 	
@@ -31,7 +31,7 @@ public class Test3_main {
 	//staticメソッド→自クラスのインスタンス化→インスタンス変数へのアクセス
 	//OK
 	static int methodE() {
-		Test3_main obj = new Test3_main();
+		Test03_main obj = new Test03_main();
 		return obj.instanceValue;
 	}
 }
