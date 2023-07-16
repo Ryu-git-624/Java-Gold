@@ -1,13 +1,5 @@
 package chapter1;
 
-public class Test01_main {
-
-	public static void main(String[] args) {
-		
-
-	}
-}
-
 class SuperA{
 	
 }
