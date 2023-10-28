@@ -32,8 +32,10 @@ public class Test16_main {
 		MyClass obj = new MyClass();
 		System.out.println("methodA() : " + obj.methodA(10));
 		System.out.println("methodC() : " + obj.methodC(10,20));
-		obj.methodB();//デフォルトメソッドの呼び出し
-		MyInter2.methodD();//staticメソッドの呼び出し
+		//デフォルトメソッドの呼び出し
+		obj.methodB();
+		//staticメソッドの呼び出し
+		MyInter2.methodD();
 		//obj.methodD();
 
 	}

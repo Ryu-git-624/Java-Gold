@@ -8,7 +8,7 @@ class Parent{
 }
 
 class Child extends Parent{
-	//var()メソッドをオーバーライドする予定だった
+	//bar()メソッドをオーバーライドする予定だった
 	void bal() {
 		System.out.println("Child#bar()");
 	}

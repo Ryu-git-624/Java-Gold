@@ -26,9 +26,8 @@ class Outer29{
 public class Test29_main {
 
 	public static void main(String[] args) {
-		Outer29 obj = new Outer29();
-		obj.method1();
-		obj.method2();
+		new Outer29().method1();
+		new Outer29().method2();
 
 	}
 

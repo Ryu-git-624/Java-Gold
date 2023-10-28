@@ -9,9 +9,9 @@ class Parent02{
 class Child02 extends Parent02{
 	@Override //アノテーション
 	//スーパークラスのメソッドをオーバーライドしているという意味付けが行われ、タイプミスが防げる
-	/*void bal() {
+	void bal() {
 		System.out.println("Chiold02#method()");
-	}*/
+	}
 	
 	void bar() {
 		System.out.println("Chiold02#method()");
@@ -21,7 +21,7 @@ class Child02 extends Parent02{
 public class Test02_main {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		new Child02().bar();
 
 	}
 

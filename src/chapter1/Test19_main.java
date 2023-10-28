@@ -19,6 +19,6 @@ interface Y extends A{
 }
 
 //method()メソッドの呼び出しが行われた際に、ＸとＹのどちらを呼ぶか判断がつかなくなるためエラー
-/*class Test19_main implements X,Y {
+class Test19_main implements X,Y {
 
-}*/
+}
