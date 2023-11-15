@@ -27,7 +27,7 @@ class Myclass22 extends Y22 implements X22{
 
 public class Test22_main {
 	public static void main(String[] args) {
-		Myclass22 obj = new Myclass22();
+		Y22 obj = new Myclass22();
 		//常にクラスが優先されるため、Y22クラスのメソッドが呼び出される
 		obj.method();
 		
